@@ -1,4 +1,4 @@
-function capitalize(value: string) {
+export function capitalize(value: string) {
   if (value === '') {
     return value;
   }
@@ -21,7 +21,6 @@ function getConnector(isLast: boolean, isLastPrototype: boolean) {
 function isLast(index: number, length: number) {
   return index == length - 1;
 }
-
 
 export type Options = {
   showSymbols?: boolean;
