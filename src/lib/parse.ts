@@ -1,20 +1,20 @@
-type ParsedObject = {
+export type ParsedObject = {
   constructorName: string | undefined;
   properties: Property[];
   parsedPrototype: ParsedObject | undefined | string;
 };
 
-type ParsedType = {
+export type ParsedType = {
   name: string;
   description: string | undefined;
 };
 
-type Property = {
+export type Property = {
   name: string;
   type: ParsedType;
 };
 
-type Options = {
+export type Options = {
   includeConstructor: boolean;
 };
 
