@@ -2,7 +2,7 @@ import test from 'ava';
 
 import { parsePrototypes } from './parse';
 
-const objectParsedObject = {
+export const objectParsedObject = {
   constructorName: 'Object',
   properties: [
     {

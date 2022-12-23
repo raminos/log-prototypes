@@ -1,7 +1,7 @@
 export type ParsedObject = {
   constructorName: string | undefined;
   properties: Property[];
-  parsedPrototype: ParsedObject | undefined | string;
+  parsedPrototype: ParsedObject | undefined;
 };
 
 export type ParsedType = {
